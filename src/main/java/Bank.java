@@ -8,9 +8,14 @@
  * @see <a href="https://cs125.cs.illinois.edu/lab/8/">Lab 8 Description</a>
  */
 public class Bank {
-
-    public String bankName;
-
+    /**
+     * Implement a bank name.
+     * @param bankName name of the bank
+     */
+    private String bankName;
+    /**
+     *
+     */
     public Bank() {
         bankName = "Illini Bank";
     }
@@ -29,6 +34,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return false;
     }
 
     /**
@@ -45,6 +51,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return false;
     }
 
     /**
@@ -64,6 +71,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return false;
     }
 
     /**
@@ -78,17 +86,20 @@ public class Bank {
          * Implement this function
          */
     }
-
-    public static int totalAccounts = 0;
+    /**
+     *@param totalAccounts lsdjhfnsjkhf
+     */
+    private static int totalAccounts = 0;
     /**
      * Uses static variable to get number of bank accounts opened.
      *
      * @return the total number of accounts
      */
     public static int getNumberOfAccount() {
-        /*
+        /**
          * Implement this function
          */
+        return 0;
     }
 
     /**
