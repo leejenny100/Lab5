@@ -92,13 +92,10 @@ public class Bank {
     private static int totalAccounts = 0;
     /**
      * Uses static variable to get number of bank accounts opened.
-     *
      * @return the total number of accounts
      */
     public static int getNumberOfAccount() {
-        /**
-         * Implement this function
-         */
+
         return 0;
     }
 
